@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+    <style>
+        nav ul{
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.nav a{
+    float:center;
+    color:#0e0d0d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover{
+    background-color: #ddd;
+    color:black;
+}
+
+.nav a.active{
+    background-color: #04aa6d;
+    color: rgb(8, 7, 7);
+}
+
+.nav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+main{
+	color: #fff;
+	margin: 200ox;
+	padding: 20px;
+    line-height: 550px;
+	background-color: #708090;
+}
+nav ul{
+background-color: #e6bbbb;
+width: 100%;
+padding: 15px 20px;
+margin: 0px 0;
+box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HEADER</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <div class="nav">
+            <div class ="nav-center">
+            <a>HOME</a>
+            <a>ABOUT US</a>
+            <a>SERVICES</a>
+            <a>CONTACTS</a>
+            </div>
+            </div>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2 style="text-align: center;">CONTENT</h2>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Web Page</p>
+    </footer>
+</body>
+</html>
